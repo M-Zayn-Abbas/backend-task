@@ -11,24 +11,15 @@ This project implements a high-performance Express.js API with:
 ## Setup
 1. Unzip or clone the repository.
 2. Install dependencies:
-   ```bash
    npm install
-   ```
-3. Run the development server:
-   ```bash
-   npm run dev
-   ```
+3. Run the server:
    npm run build
    npm start
-   ```
-
-## Testing
+   
 To verify the system requirements (Caching, Rate Limiting, Concurrency), run the load test script:
 1. Ensure the server is running (`npm run dev`).
 2. Run the test script:
-   ```bash
    node scripts/load-test.js
-   ```
    **Note**: If you are on an older Node version (<18), you may need to `npm install node-fetch`.
 
 ## API Endpoints
