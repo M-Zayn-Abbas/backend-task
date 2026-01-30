@@ -18,11 +18,18 @@ This project implements a high-performance Express.js API with:
    ```bash
    npm run dev
    ```
-   Or build and start:
-   ```bash
    npm run build
    npm start
    ```
+
+## Testing
+To verify the system requirements (Caching, Rate Limiting, Concurrency), run the load test script:
+1. Ensure the server is running (`npm run dev`).
+2. Run the test script:
+   ```bash
+   node scripts/load-test.js
+   ```
+   **Note**: If you are on an older Node version (<18), you may need to `npm install node-fetch`.
 
 ## API Endpoints
 
